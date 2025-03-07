@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>روابط التواصل الاجتماعي الخاصه بي</title>
+    <!-- رابط أيقونات Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* تنسيقات CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #62a0fd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            width: 90%;
+            max-width: 600px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 2rem;
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .social-link:hover {
+            transform: translateX(10px);
+        }
+
+        .social-link i {
+            font-size: 1.5rem;
+            margin-left: 1rem;
+        }
+
+        /* ألوان خاصة بكل منصة */
+        .facebook { background: #1877f2; }
+        .facebook:hover { background: #166fe5; }
+
+        .telegram { background: #0088cc; }
+        .telegram:hover { background: #0077b3; }
+
+        .instagram { background: #e4405f; }
+        .instagram:hover { background: #d32e4d; }
+
+        .tiktok { background: #000000; }
+        .tiktok:hover { background: #333333; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>للتواصل معي عبر الروابط التاليه</h1>
+        
+        <div class="social-links">
+            <!-- استبدل # بروابطك الحقيقية -->
+            <a href="https://www.facebook.com/share/1BQZqi6Pg9/?mibextid=qi2Omg" class="social-link facebook">
+                <i class="fab fa-facebook"></i>
+                فيسبوك
+            </a>
+
+            <a href="https://t.me/Sebten" class="social-link telegram">
+                <i class="fab fa-telegram"></i>
+                تيليجرام
+            </a>
+
+            <a href="https://www.instagram.com/sebten_alngafy/profilecard/?igsh=MWxvZmd3Zmpmeng0eA==" class="social-link instagram">
+                <i class="fab fa-instagram"></i>
+                إنستجرام
+            </a>
+
+            <a href="https://www.tiktok.com/@sebten8?_t=ZS-8uUdnOBCsLK&_r=1" class="social-link tiktok">
+                <i class="fab fa-tiktok"></i>
+                تيك توك
+            </a>
+        </div>
+    </div>
+</body>
+</html>
